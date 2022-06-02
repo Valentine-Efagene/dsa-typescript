@@ -2,6 +2,7 @@
  * 
  * @param A : Petrol in cities
  * @param X : Cities
+ * @param solutionPath : List of paths followed in the solution choice
  * @param tank : Available petrol in the tank
  * @param visited : List of all visited cities
  * @param costs : Memo holding cost of travels between cities
