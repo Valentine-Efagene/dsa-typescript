@@ -1,0 +1,21 @@
+{
+  "name": "making-anagrams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "tsc --build index.ts",
+    "watch": "tsc --watch index.ts",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
