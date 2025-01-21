@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --watch index.ts",
-    "build": "tsc --build",
-    "watch": "tsc --watch",
+    "test": "jest --watch",
+    "build": "tsc --build index.ts",
+    "watch": "tsc --watch index.ts",
     "clean": "tsc --build --clean"
   },
   "keywords": [],
